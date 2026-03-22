@@ -1,0 +1,37 @@
+.sidbar{
+    position: fixed;
+    left: 0;
+    top: 50px;
+    bottom: 0;
+    background-color: white;
+    width: 76px;
+    padding-top: 4px;
+    z-index: 300;
+
+}
+.siderbar-space{
+    height: 74px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+   
+}
+.siderbar-space:hover{
+  background-color: rgb(188, 185, 185);
+}
+.siderbar-space img{
+  height: 24px;
+  margin-bottom: 4px;
+}
+.siderbar-space div{
+  font-family: arial;
+  font-size: 11px;
+  font-style: bold
+  ;
+ 
+
+
+
+}

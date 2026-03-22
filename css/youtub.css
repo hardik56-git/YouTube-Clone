@@ -1,0 +1,111 @@
+ p{
+            font-family: roboto, arial;
+            margin-top: 0px;
+            margin-bottom: 0px;
+      }
+      
+      
+      .thumbinal{
+            width: 100%;
+          
+      }
+      
+      
+      .grid{
+            display: grid;
+            grid-template-columns: 50px 1fr;
+            width: 1fr;
+            min-width: 200px;
+            
+
+      }
+      .logo{
+            width: 40px;
+            margin-left: 5px;
+            border-radius: 40px;
+            height: 40px
+            
+      }
+      .logodiv{
+            background-color:transparent
+      }
+      .textdiv{
+            background-color: transparent;
+         
+
+      }
+     
+       .text{
+              margin-top: 0px;
+             font-size: 14px;
+             font-weight: 500;
+             line-height: 20px;
+            margin-bottom: 10px;
+     
+      } 
+       .text1{
+             margin-top: 0px;
+             font-size: 14px;
+             color: rgb(132, 131, 131);
+             margin-bottom: 10px;
+
+      }
+       .text2{
+              margin-top: 0px;
+              font-size: 14px;
+              color: rgb(132, 131, 131);
+              margin-top: 5px;
+
+      }
+       .vedio-grid{
+            display: grid;
+            grid-template-columns:1fr 1fr 1fr;
+            column-gap: 20px;
+             row-gap: 22px;
+             padding: 20px;
+      }
+      @media (max-width: 750px)
+      {
+            .vedio-grid{
+                  grid-template-columns: 1fr 1fr;
+            }
+      }
+      @media(min-width:751)and(max-width:999)
+      {
+            .vedio-grid{
+                  grid-template-columns: 1fr 1fr 1fr ;
+            }
+      }
+      @media (min-width:1000px ){
+            .vedio-grid{
+                  grid-template-columns: 1fr 1fr 1fr 1fr
+                  ;
+            }
+      }
+     body{
+      padding-top: 50px;
+      padding-bottom: 1000px;
+      padding-left: 70px;
+      background-color: rgb(247, 244, 244);
+     }
+     .vedio-time{
+      background-color: rgba(0, 0, 0, 0.623);
+      color: white;
+      position: absolute;
+      bottom: 15px;
+      right: 6px;
+      padding: 4px 5px; 
+      font-size: 12px; 
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight:500;
+      border-radius: 2px;
+
+
+}
+     .thumbnal-row{
+      position: relative;
+      margin-bottom: 8px;
+      
+     }
+
+   

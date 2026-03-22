@@ -1,0 +1,59 @@
+
+ 
+    .p-text {
+  font-family: roboto;
+  line-height: 25px;
+}
+
+.p-text{
+
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 20px;
+  width: 350px;
+  
+  margin-bottom: 5;
+}
+
+.view-text{
+  font-size: 14px;
+  margin-top: 0;
+  color:rgb(96, 96, 96); ;
+  margin-bottom: 20px;
+}
+.dic-text{
+  font-size: 14px;
+  margin-top: 0;
+  color:rgb(96, 96, 96); ;
+  margin-bottom: 20px;
+}
+.dec-text{
+  font-size: 14px;
+  line-height: 20px;
+  color:rgb(96, 96, 96); 
+  margin-bottom: 20px;
+  width: 280px;
+
+
+}
+.apple-text{
+  color:white; 
+  background-color: red;
+  text-align:center;
+  padding-bottom: 10px;   
+padding-top: 10px;
+padding-left: 5px; 
+padding-right: 5px;
+margin-top: 50;
+
+}
+.shop-text{
+  cursor: pointer;
+}
+.shop-text:hover{
+  text-decoration-line: underline;
+
+}
+body{
+  margin: 0px;
+}
